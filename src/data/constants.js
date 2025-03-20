@@ -2,13 +2,12 @@ export const Bio = {
   name: "Arun Mahajan",
   roles: [
     "Backend Developer",
-    "Frontend Developer",
-    "Devops Engineer",
+    "Frontend Developer"
   ],
   description:
     "I’m a Java full-stack developer who can build industrial-level applications solo (with a little patience). I juggle backend, frontend, databases, system design (HLD/LLD), DevOps, and problem-solving like a pro. ",
   github: "https://github.com/aun009",
-  resume: "https://drive.google.com/file/d/1sEAk4Usdy1CeyfQIO23s3EMgVOrShmWE/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/13U10-ArecFSUuyVd-ep2doDMk-bYl2Lr/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/arun-mahajan-37159b203/",
   twitter: "https://twitter.com/Himmu_S03",
   insta: "https://www.instagram.com/endless_success___/",
