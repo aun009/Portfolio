@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="urlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="linkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="512" height="512" rx="64" fill="url(#urlGrad)"/>
+  
+  <!-- Long URL -->
+  <g fill="#ffffff" opacity="0.9">
+    <rect x="96" y="160" width="320" height="24" rx="12"/>
+    <rect x="96" y="200" width="280" height="24" rx="12"/>
+    <rect x="96" y="240" width="240" height="24" rx="12"/>
+  </g>
+  
+  <!-- Short URL -->
+  <g fill="url(#linkGrad)">
+    <rect x="96" y="320" width="160" height="32" rx="16"/>
+  </g>
+  
+  <!-- Arrow -->
+  <g stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round">
+    <line x1="280" y1="336" x2="360" y2="336"/>
+    <polyline points="340,320 360,336 340,352"/>
+  </g>
+  
+  <!-- Link Icon -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="128" cy="128" r="16"/>
+    <circle cx="384" cy="128" r="16"/>
+    <path d="M144 128 L368 128" stroke="#ffffff" stroke-width="4" fill="none"/>
+  </g>
+</svg>

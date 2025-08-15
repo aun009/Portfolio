@@ -1,11 +1,12 @@
 export const Bio = {
   name: "Arun Mahajan",
   roles: [
-    "Backend Developer",
-    "Frontend Developer"
+    "Java Backend Developer",
+    "Cloud & DevOps",
+    "Android (Kotlin)"
   ],
   description:
-    "I’m a Java full-stack developer who can build industrial-level applications solo (with a little patience). I juggle backend, frontend, databases, system design (HLD/LLD), DevOps, and problem-solving like a pro. ",
+    "Java backend developer with cloud and DevOps experience (Docker, Kubernetes, AWS). Also familiar with Android development using Kotlin.",
   github: "https://github.com/aun009",
   resume: "https://drive.google.com/file/d/11kKoksXLIM8_uPzHDY2fieOGzhwbuYWu/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/arun-mahajan-37159b203/",
@@ -83,43 +84,7 @@ export const skills = [
     ],
   },
 
-  {
-    title: "Frontend",
-    skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-      {
-        name: "Material UI",
-        image:
-          "data:image/png;base64,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",
-      },
-      
-
-    ],
-  },
+  
 
   {
     title: "Programming Languages",
@@ -134,11 +99,9 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png",
       },
-      
       {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        name: "Kotlin",
+        image: "/kotlin.svg",
       },
     ],
   },
@@ -148,8 +111,7 @@ export const skills = [
     skills: [
       {
         name: "Docker",
-        image:
-          "https://wiki.hornbill.com/images/7/70/Docker_logo.png",
+        image: "/docker.svg",
       },
       {
         name: "Kubernetes",
@@ -175,42 +137,29 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkW5QVyzoVT_A8dA6aG4Y6mf_q64EjDpnpRxm49mvUg&s",
+        image: "/github.svg",
       },
       {
         name: "GitHub",
-        image:
-          "https://static-00.iconduck.com/assets.00/gitlab-icon-1024x942-f30d1qro.png",
-      },
-   
-      
-      {
-        name: "Railway.app",
-        image:
-          "https://railway.app/brand/logo-light.png",
+        image: "/github.svg",
       },
       {
         name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
         name: "Postman",
-        image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+        image: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
       },
      
       
       {
-        name: "Intellij IDEA",
-        image:
-          "https://cdn.freebiesupply.com/logos/large/2x/intellij-idea-1-logo-svg-vector.svg",
+        name: "IntelliJ IDEA",
+        image: "/intellij.svg",
       },
       {
         name: "Sublime Text",
-        image:
-          "https://static-00.iconduck.com/assets.00/sublime-text-icon-1024x1024-h15zusdi.png",
+        image: "/sublime.svg",
       },
       
     ],
@@ -218,47 +167,14 @@ export const skills = [
 ];
 
 export const experiences = [
-
-    {
-    id: 0,
-    img: "https://static.vecteezy.com/system/resources/previews/020/190/469/original/infosys-logo-infosys-icon-free-free-vector.jpg",
-    role: "Backend Developer (Java Developer)",
-    company: "BrainlyHood Technologies",
-    date: "Jan 2025 - Feb 2025",
-    desc: "Working on the Book Delivery System",
-    skills: [
-      "Java",
-      "Spring boot",
-      "Docker",
-      "Apache Kafka",
-      "CI/CD Jenkins",
-      "Junit",
-      "Docker",
-      "K8s",
-      "AWS",
-      "Dbeaver"
-    ],
-  },
-
-
   {
-    id: 2,
-    img: "https://imgs.search.brave.com/kocXGOQADTLn2EC0CfJfRsB4aG_a5OK-A21w59tYI5A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZs/YXRpY29uLmNvbS81/MTIvNjE5LzYxOTE3/NS5wbmc",
-    role: "StartUp (Java Full Stack Developer)",
-    company: "Self Project",
-    date: "June 2021 - July 2022",
-    desc: "Developed and optimized a Java full-stack Skill Sharing Platform improving system performance, automating deployments, and enhancing UI responsiveness with React.js, Redux, and CI/CD pipelines.",
-    skills: [
-      "Java",
-      "Spring Framework",
-      "Microservice",
-      "Docker",
-      "React Js",
-      "Junit",
-      "Apache Kafka"
-    ],
+    id: 0,
+    img: "/collaboration.svg",
+    role: "Open to Collaboration",
+    company: "Let’s build something great",
+    date: "Available now",
+    desc: "I love contributing to meaningful projects. If you're building something impactful and need a dedicated developer, I’d be happy to help. Open to open‑source, freelance, or part‑time collaboration. Let’s connect and create something awesome together.",
   },
-  
 ];
 
 export const education = [
@@ -296,52 +212,37 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "Bank Of Pune (BOP)",
-    date: "Dec 2024 - Jan 2024",
+    id: 0,
+    title: "Student Companion",
+    date: "In development",
     description:
-      "implemented all the functionalities that a typical bank application has in the backend, dockrized it.",
-    image:
-      "https://i.ytimg.com/vi/jf6kd4bUNGY/maxresdefault.jpg",
-    tags: [
-      "Spring Boot",
-      "Spring MVC",
-      "Hibernate",
-      "Spring Cloud",
-      "Spring Data",
-      "Docker",
-      "K8S",
-      "Msql"
-    ],
-    category: "web app",
-    github: "https://github.com/aun009/Bank-Of-Pune",
+      "A full-fledged Android app for engineering students to plan their careers: roadmap guidance, skill tracking, resources, and reminders. Built with Kotlin and modern Android components.",
+    image: "/android.svg",
+    tags: ["Android", "Kotlin", "Jetpack", "Firebase"],
+    category: "mobile app",
+    github: "https://github.com/aun009",
   },
   {
-    "id": 0,
-    "title": "Kafka Implementation in Cab Service",
-    "date": "Nov 2024 - Nov 2024",
-    "description": 
-      "Developed a scalable event-driven architecture for a cab service using Apache Kafka to handle real-time ride requests, driver assignments, and trip status updates. Implemented producer-consumer patterns to ensure smooth data flow between services and reduce system latency. Integrated Kafka Streams for real-time data processing and analytics.",
-    "image": "https://imgs.search.brave.com/fT2KO8aA8bAsmCt33UHEQnrSp1YS4BDBaC59LsoNjRM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtcGxhdGZvcm0u/OTlzdGF0aWMuY29t/Ly9OT0k2Q0NraFhm/djYwRXhTbWFuUllB/UEk5Y2M9LzEwM3g0/MTo2MDR4NTQyL2Zp/dC1pbi81MDB4NTAw/Lzk5ZGVzaWducy1j/b250ZXN0cy1hdHRh/Y2htZW50cy8yOC8y/ODEzNS9hdHRhY2ht/ZW50XzI4MTM1MDAy",
-    "tags": ["Kafka", "Spring Boot", "Mysql", "React JS"],
-    "category": "backend architecture",
-    "github": "https://github.com/aun009/Kafka"
-},
-  {
     id: 1,
-    title: "Open Source",
-    date: "Oct 2022 - Present",
+    title: "EKS Microservices Deployment",
+    date: "2024",
     description:
-      "Creating and sharing custom bash commands that will allow you to work efficiently in the terminal.",
-    image:
-      "https://imgs.search.brave.com/m2bIDxzTfHtZBfj5CHI9ROcPzBB8C6ldMPNDfgss-wI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzdjL0dvb2dsZV9T/dW1tZXJfb2ZfQ29k/ZV9zdW5fbG9nb18y/MDIyLnN2Zw",
-    tags: [
-      "Bash",
-      "Linux",
-    ],
-
-    github: "https://github.com/aun009/custom-command",
-
+      "Containerized microservices deployed on AWS EKS with CI/CD. Includes Helm charts, blue/green rollouts, autoscaling, centralized logging, and metrics.",
+    image: "/eks.svg",
+    tags: ["AWS", "EKS", "Kubernetes", "Helm", "CI/CD"],
+    category: "devops",
+    github: "https://github.com/aun009",
+  },
+  {
+    id: 2,
+    title: "Tiny URL Service",
+    date: "2024",
+    description:
+      "A URL shortening service built with Spring Boot and Redis. Features include custom short URLs, click analytics, QR code generation, and API rate limiting.",
+    image: "/tinyurl.svg",
+    tags: ["Java", "Spring Boot", "Redis", "REST API", "Docker"],
+    category: "backend service",
+    github: "https://github.com/aun009",
   },
   // {
   //   id: 2,
@@ -350,7 +251,7 @@ export const projects = [
   //   description:
   //     "Made a railway app like India's own, with all the features you'd expect. Book tickets, check schedules, and travel hassle-free",
   //   image:
-  //     "https://static.toiimg.com/thumb/msid-80042755,width-1280,height-720,resizemode-4/80042755.jpg",
+  //     "https://static.toiimg.com/thumb/msid-80042755,width:1280,height:720,resizemode:4/80042755.jpg",
   //     tags: [
   //       "Spring Framework",
   //       "Micorservice Arcticture",
@@ -360,7 +261,6 @@ export const projects = [
   //     ],
   //   github: "https://github.com/HimanshuSingour/India-RailwayWise-Your-Journey-Our-Management",
 
-    
   // },
   // {
   //   id: 3,
@@ -418,7 +318,7 @@ export const projects = [
   //       "Apache Kafka",
   //       "Apache Camel",
   //     ],
-  //   github: "https://github.com/HimanshuSingour/Hotel-Management-Microservice-SpringBoot",
+  //   github: "https://github.com/HimanshuSingour/India-RailwayWise-Your-Journey-Our-Management",
 
   // },
   // {
@@ -435,7 +335,7 @@ export const projects = [
   //       "Micorservice",
   //       "Design Patterns",
   //       "Apache Kafka",
- 
+  //
   //     ],
   //   github: "https://github.com/HimanshuSingour/Google-Pay-Payment-Application-",
 
