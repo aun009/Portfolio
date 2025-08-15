@@ -8,7 +8,7 @@ export const Bio = {
   description:
     "Java backend developer with cloud and DevOps experience (Docker, Kubernetes, AWS). Also familiar with Android development using Kotlin.",
   github: "https://github.com/aun009",
-  resume: "https://drive.google.com/file/d/11kKoksXLIM8_uPzHDY2fieOGzhwbuYWu/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1TNtzzp0Rz7zVQFgYvII9Zldtk0jgKGvJ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/arun-mahajan-37159b203/",
   twitter: "https://twitter.com/Himmu_S03",
   insta: "https://www.instagram.com/endless_success___/",
